@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="utf-8"  />
+<title>stp24</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css"/>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+<!-- Font Google -->
+<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container"> <a class="navbar-brand navbar-logo" href="#"> <img src="images/logo.png" alt="logo" class="logo-1"
+     width="20%"height="20%" style="border-radius:50%;border: 10px; color: gold;"></a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="fas fa-bars"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+         <li class="nav-item" ><font face="Comic Sans MS" size="25">  <a class="nav-link" href="" data-scroll-nav="0">Inicio</a> </font></li>
+        <li class="nav-item"><font face="Comic Sans MS" size="25">  <a class="nav-link" href="#" data-scroll-nav="1">Sobre</a> </font></li>
+        <li class="nav-item"> <font face="Comic Sans MS" size="25"> <a class="nav-link" href="#" data-scroll-nav="2">Serviços</a> </font></li>
+        <li class="nav-item"> <font face="Comic Sans MS" size="25"> <a class="nav-link" href="#" data-scroll-nav="3">Equipa</a> </font></li>
+        <li class="nav-item"> <font face="Comic Sans MS" size="25"> <a class="nav-link" href="#" data-scroll-nav="4">Clientes</a></font> </li>
+        <li class="nav-item"><font face="Comic Sans MS" size="25">  <a class="nav-link" href="#" data-scroll-nav="5">Faq</a> </font></li>
+        <li class="nav-item"><font face="Comic Sans MS" size="25">  <a class="nav-link" href="#" data-scroll-nav="6">Contacto</a> </font></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- End Navbar --> 
+<!-------Banner Start------->
+<section class="banner" data-scroll-index='0'>
+  <div class="banner-overlay">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-12">
+          <div class="banner-text"><br>
+
+            <div class="text-container">
+              <h1>SEJA BENVINDO!<h4 style="margin-top: 10px;"><span><strong>STP24</strong> em São Tomé e Princípe. .</span></h4></h1></div>
+
+            <h1 class="animate-charcter" style="margin-top: 10px;"><font face="Comic Sans MS" size="25" >O melhor que ja viu!</font><br>
+            </h1>
+            
+            
+            <h6 class="white"></h6>Instale o aplicativo pela <strong>playstore/appstore</strong> e faça o seu pedido </h6>
+            
+            <ul><br>
+              <div style="margin-top: 10px;">
+              <li><a href="#"><img src="images/appstore.png" class="wow fadeInUp" data-wow-delay="0.4s"/></a></li>
+              <li><a href="#"><img src="images/playstore.png" class="wow fadeInUp" data-wow-delay="0.7s"/></a></li>
+              <br><br></div>
+              <li ><font face="Comic Sans MS">
+              <button  type="submit" class="btn btn-warning" style="border-radius:20px; color: white; background-color:#FF9501;margin-top: 10px;height: 60px;"data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" > Envia-me um Transporte agora!
+                <a href="#"> </a></button></li>
+               
+            </font>
+            </ul>
+          </div>
+
+          <!-- modal-->
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Pedido</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="name" class="col-form-label">Nome:</label>
+            <input type="text" class="form-control" id="name">
+          </div> <div class="form-group">
+            <label for="contact" class="col-form-label">Contacto:</label>
+            <input type="number" class="form-control" id="contact">
+          </div>
+          <div class="form-group">
+            <label for="local" class="col-form-label">Sua Localização/zona & Rua</label>
+            <textarea class="form-control" id="local"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary " style="border-radius:20px;" data-dismiss="modal">Cancelar pedido
+        </button>
+        <button type="button" class="btn btn-warning" style="border-radius:20px;">Enviar pedido</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-------Banner End-------> 
+        </div>
+        <div class="col-md-4 col-sm-12"> <img src="images/iphone-screen2.png" class="img-fluid wow fadeInUp"/> </div>
+      </div>
+    </div>
+  </div>
+  <span class="svg-wave"> <img class="svg-hero" src="images/pattern.png"> </span> </section>
+
+
+
+<!-------About End------->
+
+<section class="about section-padding prelative" data-scroll-index='1'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center">
+          <h3 class="animate-charcter">Sobre nós</h3>
+          <span class="line"></span>
+          <p>Sed quis nisi nisi. Proin consectetur porttitor dui sit amet viverra. Fusce sit amet lorem faucibus, vestibulum ante in, pharetra ante.</p>
+        </div>
+        <div class="section-content text-center">
+          <div class="row">
+            <div class="col-md-4">
+               
+              <div class="card"data-wow-delay="0.1s">
+                <h4><b>Supoort</b><img src="images/flash.png"></h4> 
+               <div class="card__content">
+                  <p class="card__title">Supoort</p>
+                  <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div>
+              </div></div>
+
+            <div class="col-md-4">
+              <div class="card" data-wow-delay="0.4s">
+                <h4><b>Cross Platform</b><img src="images/flash.png"> </h4>
+                 
+                  <div class="card__content">
+                  <p class="card__title">Cross Platform</p>
+                  <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                </div>
+              </div>
+          </div>
+
+            <div class="col-md-4">
+              <div class="card" data-wow-delay="0.6s"> 
+                <h4><b>flash</b><img src="images/flash.png"></h4>
+               <div class="container">
+                 <div class="card__content">
+                  <p class="card__title">flash</p>
+                  <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+               </div>
+              </div>
+            </div>
+          </div>
+          <!--a href="#" class="about-btn">Veja mais</a> </div-->
+      </div>
+    </div>
+  </div>
+</section>
+<!-------About End-------> 
+
+<!-------Video Start------->
+<section class="video-section prelative text-center white">
+  <div class="section-padding video-overlay">
+    <div class="container">
+      <h3>Saiba mais.</h3>
+      <i class="fa fa-play" id="video-icon" aria-hidden="true"></i>
+      <div class="video-popup">
+        <div class="video-src">
+          <div class="iframe-src">
+            <iframe src="https://www.youtube.com/embed/Ku52zNnft8k?rel=0&amp;showinfo=0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-------Video End-------> 
+
+<!-------Features Start------->
+<section class="feature section-padding" data-scroll-index='2'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center">
+          <h3 class="animate-charcter">Serviços</h3>
+          <span class="line"></span>
+          <p>Sed quis nisi nisi. Proin consectetur porttitor dui sit amet viverra. Fusce sit amet lorem faucibus, vestibulum ante in, pharetra ante.</p>
+        </div>
+        <div class="section-content text-center">
+          <div class="row">
+            <div class="col-md-4 col-sm-12">
+              <div class="media single-feature wow fadeInUp" data-wow-delay="0.2s">
+                <div class="media-body text-right media-right-margin">
+                  <h5>Fast Processing</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
+                </div>
+                <div class="media-right icon-border"> <span class="fa fa-bolt" aria-hidden="true"></span> </div>
+              </div>
+              <div class="media single-feature wow fadeInUp" data-wow-delay="0.4s">
+                <div class="media-body text-right media-right-margin">
+                  <h5>Low Power Consuming</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
+                </div>
+                <div class="media-right icon-border"> <span class="fa fa-battery-full" aria-hidden="true"></span> </div>
+              </div>
+              <div class="media single-feature wow fadeInUp" data-wow-delay="0.6s">
+                <div class="media-body text-right media-right-margin">
+                  <h5>Wifi Compatibility</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
+                </div>
+                <div class="media-right icon-border"> <span class="fa fa-wifi" aria-hidden="true"></span> </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-none d-md-block d-lg-block">
+              <div class="feature-mobile"> <img src="images/iphone-screen1.png" class="img-fluid wow fadeInUp"/> </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <div class="media single-feature wow fadeInUp" data-wow-delay="0.2s">
+                <div class="media-left icon-border media-right-margin"> <span class="fa fa-check-double" aria-hidden="true"></span> </div>
+                <div class="media-body text-left">
+                  <h5>Regular Updates</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
+                </div>
+              </div>
+              <div class="media single-feature wow fadeInUp" data-wow-delay="0.4s">
+                <div class="media-left icon-border media-right-margin"> <span class="fa fa-dollar-sign" aria-hidden="true"></span> </div>
+                <div class="media-body text-left">
+                  <h5>Save Money</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
+                </div>
+              </div>
+              <div class="media single-feature wow fadeInUp" data-wow-delay="0.6s">
+                <div class="media-left icon-border media-right-margin"> <span class="fa fa-hdd" aria-hidden="true"></span> </div>
+                <div class="media-body text-left">
+                  <h5>Unlimited Storage</h5>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididugnt ut labore</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-------Features End-------> 
+
+<!-------Team Start------->
+<section class="team section-padding" data-scroll-index='3'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center">
+          <h3 class="animate-charcter">Equipa</h3>
+          <span class="line"></span>
+          <p>Sed quis nisi nisi. Proin consectetur porttitor dui sit amet viverra. Fusce sit amet lorem faucibus, vestibulum ante in, pharetra ante.</p>
+        </div>
+        <div class="section-content text-center">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="team-detail wow bounce" data-wow-delay="0.2s"> <img src="images/user5.jpg" class="img-fluid"/>
+                <h4>_________</h4>
+                <p>Marketing Specialist</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="team-detail wow bounce" data-wow-delay="0.4s"> <img src="images/user4.jpg" class="img-fluid"/>
+                <h4>Danilo</h4>
+                <p>CEO & Founder</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="team-detail wow bounce" data-wow-delay="0.6s"> <img src="images/user0.jpg" class="img-fluid"/>
+                <h4>______</h4>
+                <p>Web Developer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-------Team End-------> 
+
+<!-------Testimonial Start------->
+<section class="testimonial section-padding" data-scroll-index='4'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center white">
+          <h3 class="animate-charcter">Nossos Clientes</h3>
+          <span class="line"></span>
+          <p class="white">Sed quis nisi nisi. Proin consectetur porttitor dui sit amet viverra. Fusce sit amet lorem faucibus, vestibulum ante in, pharetra ante.</p>
+        </div>
+    
+      <div class="section-content">
+        <div class="row">
+          <div class="offset-md-2 col-md-8 col-sm-12">
+            <div class="slider">
+              <div class="slider-item">
+                <div class="test-img"><img src="images/woman.png" alt="Placeholder" width="157" height="157"></div>
+                <div class="test-text"><span class="title"><span>_____________</span> Digital Designer</span> Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratvo lutpat.</div>
+              </div>
+              <div class="slider-item">
+                <div class="test-img"><img src="images/man.png" alt="Placeholder" width="157" height="157"></div>
+                <div class="test-text"><span class="title"><span>_____________</span> App User</span> Euismod tincidunt ut laoreet dolore magna aliquam eratvo lutpat. Ut wisi enim ad minim veniam, quis nostrud v</div>
+              </div>
+              <div class="slider-item">
+                <div class="test-img"><img src="images/fundo1.jpg" alt="Placeholder" width="157" height="157"></div>
+                <div class="test-text"><span class="title"><span>_____________</span> Blogger</span> Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam eratvo lutpat. Ut wisi enim ad minim veniam, quis nostrud v</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-------Testimonial End-------> 
+
+<!-------FAQ Start------->
+<section class="faq section-padding prelative" data-scroll-index='5'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center">
+          <h3 class="animate-charcter">Perguntas Fequentes</h3>
+          <span class="line"></span>
+          <p>Sed quis nisi nisi. Proin consectetur porttitor dui sit amet viverra. Fusce sit amet lorem faucibus, vestibulum ante in, pharetra ante.</p>
+        </div>
+        <div class="section-content">
+          <div class="row">
+            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.2s" style="border-width:5PX BLACK;">
+             <div class="card1">
+             <span> <h4> Tellus felis, dignissim quis dui ? </h4></span>
+              <p><strong>R:</strong> fermentum placerat enim, at pellentesque augue. Nullam elit est, ultricies et tellus ac, euismod placerat orci. Donec commodo.</p>
+           </div>
+           </div>
+            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.2s"  style="border-width:5PX BLACK;">
+              <div class="card1">
+              </span> <h4>Mauris scelerisque, dui non faucibus vulputate ?</h4></span>
+              <p><strong>R:</strong>Sed tempus in neque ac rhoncus. Phasellus vehicula, erat tempor malesuada egestas, mauris tellus malesuada erat, at vestibulum nulla ex et lectus. Nullam elit est, ultricies et tellus ac, euismod placerat orci.</p>
+            </div>
+          </div>
+            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.4s" style="border-width:5PX BLACK;">
+              <div class="card1">
+              </span><h4>Nullam elit est, ultricies et tellus ac ?</h4></span>
+              <p> <strong>R:</strong> nada aSed tempus in neque ac rhoncus. Phasellus vehicula, erat tempor malesuada eg
+                Sed tempus in neque ac rhoncus. Phasellus vehicula, erat tempor malesuada eg
+                Sed tempus in neque ac rhoncus. Phasellus vehicula, erat tempor malesuada eg declarar</p>
+            </div>
+          </div>
+            <div class="col-md-6 faq-content wow fadeInUp" data-wow-delay="0.6s" style="border: burlywood 5px;">
+              <div class="card1">
+              </span><h4>Donec commodo dapibus congue ?</h4></span>
+              <p><strong>R:</strong>Nullam elit est, ultricies et tellus ac, euismod placerat orci fermentum placerat enim, at pellentesque augue. Nullam elit est, ultricies et tellus ac, euismod placerat orci. Donec commodo dapibus congue.</p>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-------FAQ End-------> 
+
+<!-------Contact Start------->
+<section class="contact section-padding" data-scroll-index='6'>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="sectioner-header text-center">
+          <h3 class="animate-charcter">Seja um Cliente!</h3>
+          <span class="line"></span>
+          <p>Ser um cliente te traz muitos beneficios conosco, onde podes sortir a premiações e decontos em viagens efetuadas!</p>
+        </div>
+        <div class="section-content">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-8">
+              <form id="contact_form" action="">
+                <div class="row,">
+                  <div class="">
+                    <input type="text" id="name" class=" form-control" name="nome" placeholder="Nome completo" required>
+                 <br>
+                  
+                    <input type="email" id="email" class=" form-control" name="email" placeholder="Email" required>
+                 
+                    <br>
+                    <input type="number" id="number" class=" form-control" name="contact" placeholder="Telemovel" required>
+               
+                 
+                    <input type="number" id="NIF" class=" form-control" name="nif" placeholder="NIF" required>
+                  </div>
+                </div>
+              
+                <button class="btn btn-warning w-100 text-uppercase" type="submit" name="button" style="border-radius:20px; color: aliceblue;background-color: #FF9501;">SER CLIENTE</button>
+              </form>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4" >
+              <div class="contact-info white">
+                <div class="contact-item media"> <i class="fa fa-map-marker-alt media-left media-right-margin"></i>
+                  <div class="media-body" >
+                    <p class="text-uppercase">Eendereço</p>
+                    <p class="text-uppercase"style="color:white;">A Traz de cadeia São Tomé & Princípe</p>
+                  </div>
+                </div>
+                <div class="contact-item media"> <i class="fa fa-mobile media-left media-right-margin"></i>
+                  <div class="media-body">
+                    <p class="text-uppercase">Telefone</p>
+                    <p class="text-uppercase"><a class="text-white" href="tel:+15173977100">009900990099</a> </p>
+                  </div>
+                </div>
+                <div class="contact-item media"> <i class="fa fa-envelope media-left media-right-margin"></i>
+                  <div class="media-body">
+                    <p class="text-uppercase">E-mail</p>
+                    <p class="text-uppercase"><a class="text-white" href=" ">stp24@gmail.com</a> </p>
+                  </div>
+                </div>
+                <div class="contact-item media"> <i class="fa fa-clock media-left media-right-margin"></i>
+                  <div class="media-body">
+                    <p class="text-uppercase">Horario de funcionamento</p>
+                    <p class="text-uppercase"style="color:white;">Seg-Sext 7.00 á 22.00 horas</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-------Contact End-------> 
+
+
+
+<footer class="footer-copy">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12">
+        <p>2018 &copy; Applight. Website Designed by <a href="" target="_blank" rel="dofollow">Abdulay Custódio</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script> 
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script> 
+<!-- scrollIt js --> 
+<script src="js/scrollIt.min.js"></script> 
+<script src="js/wow.min.js"></script> 
+<script>
+	wow = new WOW();
+	wow.init();
+$(document).ready(function(e) {
+
+	$('#video-icon').on('click',function(e){
+	e.preventDefault();
+	$('.video-popup').css('display','flex');
+	$('.iframe-src').slideDown();
+	});
+	$('.video-popup').on('click',function(e){
+	var $target = e.target.nodeName;
+	var video_src = $(this).find('iframe').attr('src');
+	if($target != 'IFRAME'){
+	$('.video-popup').fadeOut();
+	$('.iframe-src').slideUp();
+	$('.video-popup iframe').attr('src'," ");
+	$('.video-popup iframe').attr('src',video_src);
+	}
+	});
+
+	$('.slider').bxSlider({
+	pager: false
+	});
+});
+    
+$(window).on("scroll",function () {
+
+	var bodyScroll = $(window).scrollTop(),
+	navbar = $(".navbar");
+	
+	if(bodyScroll > 50){
+	$('.navbar-logo img').attr('src','images/logo-black.png');
+	navbar.addClass("nav-scroll");
+
+}else{
+	$('.navbar-logo img').attr('src','images/logo.png');
+	navbar.removeClass("nav-scroll");
+}
+
+});
+$(window).on("load",function (){
+	var bodyScroll = $(window).scrollTop(),
+	navbar = $(".navbar");
+	
+	if(bodyScroll > 50){
+	$('.navbar-logo img').attr('src','images/logo-black.png');
+	navbar.addClass("nav-scroll");
+	}else{
+	$('.navbar-logo img').attr('src','images/logo-white.png');
+	navbar.removeClass("nav-scroll");
+	}
+
+	$.scrollIt({
+	
+	easing: 'swing',      // the easing function for animation
+	scrollTime: 900,       // how long (in ms) the animation takes
+	activeClass: 'active', // class given to the active nav element
+	onPageChange: null,    // function(pageIndex) that is called when page is changed
+	topOffset: -63
+	});
+});
+
+</script>
+</body>
+</html>
